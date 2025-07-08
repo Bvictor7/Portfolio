@@ -15,7 +15,13 @@ const About = () => {
         <div className="about-header">
           <h1>Salut, je suis Victor 👋</h1>
           <p>Développeur Web en formation, passionné par le développement Full-Stack.</p>
-          <p>À la recherche d'un stage en développement web du <strong>17/03/25 au 30/05/25</strong>.</p>
+          <p>
+  Actuellement en formation de <strong>Développeur Web et Web Mobile</strong> à l’<strong>AFEC de Bayonne</strong>, je suis à la recherche d’une <strong>alternance à partir de septembre 2024</strong> (ou dès que possible) et ce jusqu’à <strong>décembre 2026</strong>.
+</p>
+<p>
+  Mon objectif est de mettre en pratique les compétences que j’acquiers en formation, notamment en développement React, Node.js, MongoDB, ainsi qu’en intégration, conception d’API et déploiement d’applications web.
+</p>
+
         </div>
 
     
