@@ -1,0 +1,82 @@
+/* Header fixe à droite d'une marge de 200px */
+.site__header {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  width: calc(100% - 200px);
+  padding: 10px 20px;
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+/* Bouton menu */
+.menu__button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Menu mobile plein écran */
+.site__navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  visibility: hidden;
+  z-index: 3000;
+}
+
+.menu__opend {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.the_menu {
+  list-style: none;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.menu_item {
+  margin: 15px 0;
+}
+
+.menu_item a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu_item a:hover {
+  color: red;
+}
+
+.menu_footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  z-index: 3001;
+}
+
+.menu_footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.menu_footer a:hover {
+  color: red;
+}
