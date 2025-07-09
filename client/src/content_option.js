@@ -23,7 +23,7 @@ export const meta = {
     {
       img: "https://i.gifer.com/MBo3.gif", // Image locale
       description: "Petit JEUX",
-      link: "https://github.com/Bvictor7/projet3/tree/main"
+      link: "https://bvictor7.github.io/projet3/"
     },
     {
       img: "https://aniyuki.com/wp-content/uploads/2022/01/aniyuki-black-and-white-anime-19.gif",
@@ -33,7 +33,7 @@ export const meta = {
     {
       img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0de9a0be-625d-4913-bd56-dc4a25185857/df9v061-bf95e1c7-cc03-4621-86c6-f674b421ebcc.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkZTlhMGJlLTYyNWQtNDkxMy1iZDU2LWRjNGEyNTE4NTg1N1wvZGY5djA2MS1iZjk1ZTFjNy1jYzAzLTQ2MjEtODZjNi1mNjc0YjQyMWViY2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.i7Jvz00vNBYsULZfiLOH-ToxoxQb0r3C6vP-2nh55jo", // Image locale
       description: "Site Web 2Wheels",
-      link: "https://github.com/Bvictor7/2WheelsTest"
+      link: "https://2-wheels-test.vercel.app/"
     },
     {
       img: "https://i.pinimg.com/originals/3a/04/05/3a04050f2ca8fa36a89c577af3c573eb.gif",
