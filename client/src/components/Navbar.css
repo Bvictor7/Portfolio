@@ -1,0 +1,95 @@
+/* Conteneur de la Navbar */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1000;
+    transition: left 0.3s ease;
+  }
+  
+  /* Sur desktop, la navbar reste affichée. 
+     Sur mobile, elle est masquée par défaut et ne s'affiche que lorsqu'elle a la classe "active". */
+  @media (max-width: 767px) {
+    .navbar-container {
+      left: -200px; /* Sidebar masquée */
+    }
+    .navbar-container.active {
+      left: 0; /* Sidebar affichée */
+    }
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-logo a {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+  
+  .navbar-logo-img {
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .navbar-logo-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Liens du menu */
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  /* Réseaux sociaux */
+  .navbar-socials {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .social-icon {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .social-icon:hover {
+    color: red;
+  }
+  
+  
