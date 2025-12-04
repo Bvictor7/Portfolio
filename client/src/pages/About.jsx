@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar"; 
 import HeaderMain from "../components/HeaderMain";
 
-
 const About = () => {
   return (
     <div className="about-page">
@@ -14,22 +13,46 @@ const About = () => {
       <div className="about-container">
         <div className="about-header">
           <h1>Salut, je suis Victor 👋</h1>
-          <p>Développeur Web en formation, passionné par le développement Full-Stack.</p>
-          <p>
-  Actuellement en formation de <strong>Développeur Web et Web Mobile</strong> à l’<strong>AFEC de Bayonne</strong>, je suis à la recherche d’une <strong>alternance à partir de septembre 2025</strong> (ou dès que possible) et ce jusqu’à <strong>décembre 2026</strong>.
-</p>
-<p>
-  Mon objectif est de mettre en pratique les compétences que j’acquiers en formation, notamment en développement React, Node.js, MongoDB, ainsi qu’en intégration, conception d’API et déploiement d’applications web.
-</p>
-
+          <p>Développeur Full-Stack passionné par la conception et le développement d'applications.</p>
+          <p className="status-info">
+            🎓 Actuellement en formation CDA (Sept 2025 - Déc 2026) • À la recherche d'une alternance
+          </p>
         </div>
 
-    
+        <div className="about-section">
+          <h2>🚀 Mon Parcours</h2>
+          <ul>
+            <li>
+              <strong>Concepteur Développeur d'Applications (CDA) 🎯</strong><br />
+              📅 Septembre 2025 - Décembre 2026 | AFEC Bayonne<br />
+              Formation actuellement en cours. Spécialisation en architecture logicielle, gestion de projets complexes et développement d'applications avancées.
+              <strong> À la recherche d'une alternance !</strong>
+            </li>
+            <li>
+              <strong>Développeur Web et Web Mobile ✅</strong><br />
+              📅 2024 - Juin 2025 | AFEC Bayonne<br />
+              Formation terminée avec succès en juin 2025. Acquisition de compétences solides en développement Front-end et Back-end.
+            </li>
+          </ul>
+        </div>
+
         <div className="about-section">
           <h2>💻 Compétences Techniques</h2>
           <p>Langages & Outils que j'utilise :</p>
+          
+          <p><strong>Front-end</strong></p>
           <div className="skills-icons">
-            <img src="https://skillicons.dev/icons?i=vscode,npm,git,github,javascript,nodejs,express,mongodb,postman,react,css,bootstrap,vercel" alt="Technologies" />
+            <img src="https://skillicons.dev/icons?i=react,javascript,css,bootstrap" alt="Front-end" />
+          </div>
+          
+          <p><strong>Back-end</strong></p>
+          <div className="skills-icons">
+            <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postman" alt="Back-end" />
+          </div>
+          
+          <p><strong>Outils & DevOps</strong></p>
+          <div className="skills-icons">
+            <img src="https://skillicons.dev/icons?i=vscode,git,github,npm,vercel" alt="Outils" />
           </div>
         </div>
 
@@ -45,7 +68,8 @@ const About = () => {
         <div className="about-section">
           <h2>🎓 Formation</h2>
           <ul>
-            <li>📌 <strong>Développeur Web & Web Mobile</strong> (2024 - 2025)</li>
+            <li>🎯 <strong>Concepteur Développeur d'Applications (en cours)</strong> - AFEC Bayonne (Septembre 2025 - Décembre 2026)</li>
+            <li>✅ <strong>Développeur Web & Web Mobile</strong> - AFEC Bayonne (2024 - Juin 2025)</li>
             <li>📌 <strong>Entrepreneur Numérique</strong> - Simplon (2024)</li>
             <li>📌 <strong>BTS NDRC</strong> - Mont de Marsan (2021 - 2022)</li>
             <li>📌 <strong>Bac Pro Commerce</strong> - Bayonne (2017 - 2021)</li>
@@ -53,7 +77,7 @@ const About = () => {
         </div>
 
         <div className="about-section">
-          <h2>🎮 Centres d’Intérêt</h2>
+          <h2>🎮 Centres d'Intérêt</h2>
           <p>Moto, Jeux Vidéos, Animés, Sport.</p>
         </div>
       
